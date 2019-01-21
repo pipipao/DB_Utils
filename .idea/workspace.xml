@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c573700-f33f-4599-8ca0-22a5e77f1c54" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB_Utils.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-dbutils-1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/druid-1.1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/dkx/jdbc/dao/IStudentsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/dkx/jdbc/dao/impl/StudentsDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/dkx/jdbc/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/dkx/jdbc/test/StudentsDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/dkx/jdbc/util/JDBCUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resource/db.properties" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1581350885">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.33" value="2" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.38" value="2" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.60" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="1" />
+          <entry key="java" value="11" />
+          <entry key="properties" value="3" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="11" />
+          <entry key="Properties" value="3" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1364" />
+          <entry key="properties" value="157" />
+          <entry key="txt" value="65" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1364" />
+          <entry key="PLAIN_TEXT" value="65" />
+          <entry key="Properties" value="157" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="杜凯旋（Du）" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/dkx/jdbc/test/Test.java" />
+        <option value="$PROJECT_DIR$/src/edu/dkx/jdbc/util/JDBCUtil.java" />
+        <option value="$PROJECT_DIR$/src/edu/dkx/jdbc/domain/Student.java" />
+        <option value="$PROJECT_DIR$/src/edu/dkx/jdbc/dao/IStudentsDao.java" />
+        <option value="$PROJECT_DIR$/src/edu/dkx/jdbc/dao/impl/StudentsDaoImpl.java" />
+        <option value="$PROJECT_DIR$/resource/db.properties" />
+        <option value="$PROJECT_DIR$/src/edu/dkx/jdbc/test/StudentsDaoTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="402" />
+    <option name="y" value="15" />
+    <option name="width" value="1225" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="DB_Utils" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="DB_Utils" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DB_Utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DB_Utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DB_Utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DB_Utils" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DB_Utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DB_Utils" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DB_Utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DB_Utils" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DB_Utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DB_Utils" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DB_Utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DB_Utils" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="DB_Utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DB_Utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DB_Utils" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="DB_Utils" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DB_Utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DB_Utils" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DB_Utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DB_Utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DB_Utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DB_Utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DB_Utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DB_Utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DB_Utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DB_Utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DB_Utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DB_Utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DB_Utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DB_Utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="module" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545922336154" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\DB_Utils\lib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.StudentsDaoTest.getAll">
+    <configuration name="StudentsDaoTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DB_Utils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.dkx.jdbc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.dkx.jdbc.test" />
+      <option name="MAIN_CLASS_NAME" value="edu.dkx.jdbc.test.StudentsDaoTest" />
+      <option name="METHOD_NAME" value="get" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentsDaoTest.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DB_Utils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.dkx.jdbc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.dkx.jdbc.test" />
+      <option name="MAIN_CLASS_NAME" value="edu.dkx.jdbc.test.StudentsDaoTest" />
+      <option name="METHOD_NAME" value="getAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentsDaoTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DB_Utils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.dkx.jdbc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.dkx.jdbc.test" />
+      <option name="MAIN_CLASS_NAME" value="edu.dkx.jdbc.test.StudentsDaoTest" />
+      <option name="METHOD_NAME" value="save" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentsDaoTest.transMajor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DB_Utils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.dkx.jdbc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.dkx.jdbc.test" />
+      <option name="MAIN_CLASS_NAME" value="edu.dkx.jdbc.test.StudentsDaoTest" />
+      <option name="METHOD_NAME" value="transMajor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentsDaoTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DB_Utils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.dkx.jdbc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.dkx.jdbc.test" />
+      <option name="MAIN_CLASS_NAME" value="edu.dkx.jdbc.test.StudentsDaoTest" />
+      <option name="METHOD_NAME" value="update" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.StudentsDaoTest.getAll" />
+      <item itemvalue="JUnit.StudentsDaoTest.update" />
+      <item itemvalue="JUnit.StudentsDaoTest.get" />
+      <item itemvalue="JUnit.StudentsDaoTest.transMajor" />
+      <item itemvalue="JUnit.StudentsDaoTest.save" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StudentsDaoTest.getAll" />
+        <item itemvalue="JUnit.StudentsDaoTest.save" />
+        <item itemvalue="JUnit.StudentsDaoTest.get" />
+        <item itemvalue="JUnit.StudentsDaoTest.transMajor" />
+        <item itemvalue="JUnit.StudentsDaoTest.update" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c573700-f33f-4599-8ca0-22a5e77f1c54" name="Default Changelist" comment="" />
+      <created>1542123178404</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542123178404</updated>
+      <workItem from="1542123184818" duration="1422000" />
+      <workItem from="1542255645891" duration="34000" />
+      <workItem from="1542255963267" duration="15013000" />
+      <workItem from="1542291648715" duration="3849000" />
+      <workItem from="1542329836811" duration="2421000" />
+      <workItem from="1542339971261" duration="2309000" />
+      <workItem from="1544587957757" duration="1320000" />
+      <workItem from="1545150655448" duration="36000" />
+      <workItem from="1545319580864" duration="3896000" />
+      <workItem from="1545362412164" duration="2987000" />
+      <workItem from="1545919461309" duration="29000" />
+      <workItem from="1545919629217" duration="2700000" />
+    </task>
+    <task id="LOCAL-00001" summary="数据库马上就要结课了，感觉很充实，做了个连接数据库的小程序">
+      <created>1542341109961</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542341109961</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="StudentsDaoTest_getAll - 2018.12.21 at 11h 27m 31s.xml">
+      <configuration name="StudentsDaoTest.getAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentsDaoTest_get - 2018.12.21 at 12h 34m 20s.xml">
+      <configuration name="StudentsDaoTest.get" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentsDaoTest_get - 2018.12.21 at 12h 34m 41s.xml">
+      <configuration name="StudentsDaoTest.get" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentsDaoTest_getAll - 2018.12.21 at 12h 35m 59s.xml">
+      <configuration name="StudentsDaoTest.getAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentsDaoTest_getAll - 2018.12.21 at 12h 36m 32s.xml">
+      <configuration name="StudentsDaoTest.getAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentsDaoTest_getAll - 2018.12.21 at 12h 36m 38s.xml">
+      <configuration name="StudentsDaoTest.getAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentsDaoTest_getAll - 2018.12.21 at 12h 36m 43s.xml">
+      <configuration name="StudentsDaoTest.getAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentsDaoTest_get - 2018.12.21 at 12h 36m 57s.xml">
+      <configuration name="StudentsDaoTest.get" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentsDaoTest_save - 2018.12.21 at 12h 38m 17s.xml">
+      <configuration name="StudentsDaoTest.save" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentsDaoTest_getAll - 2018.12.21 at 12h 38m 27s.xml">
+      <configuration name="StudentsDaoTest.getAll" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="36016000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13059701" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3083605" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32790446" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32899022" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+    <MESSAGE value="数据库马上就要结课了，感觉很充实，做了个连接数据库的小程序" />
+    <MESSAGE value="上一次提交好像不全，再次试一下" />
+    <option name="LAST_COMMIT_MESSAGE" value="上一次提交好像不全，再次试一下" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/dkx/jdbc/test/Test.java" />
+    <entry file="file://$PROJECT_DIR$/DB_Utils.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/deployment.xml" />
+    <entry file="file://$PROJECT_DIR$/src/edu/dkx/jdbc/util/JDBCUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/dkx/jdbc/dao/impl/StudentsDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/dkx/jdbc/dao/IStudentsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/dkx/jdbc/domain/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/dkx/jdbc/test/StudentsDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="35" column="58" lean-forward="true" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>DB_Utils</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
